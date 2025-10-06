@@ -5,7 +5,7 @@ are no real solutions.*/
 
 import java.util.Scanner;
 
-class quadratic_equation{
+class QUADRATIC_EQUATION{
 public static void main(String args[]){
     double a;
     double b;
@@ -51,5 +51,6 @@ public static void main(String args[]){
         
     
     }
+
 
 }

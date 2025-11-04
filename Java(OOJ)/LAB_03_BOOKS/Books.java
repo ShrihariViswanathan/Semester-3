@@ -27,7 +27,7 @@ class Book{
 } //end of class
 
 
-class Lp3{
+class Books{
     public static void main(String args[]){
 
     Scanner s = new Scanner(System.in);
@@ -70,5 +70,6 @@ class Lp3{
 
     }
 }
+
 
 

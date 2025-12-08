@@ -46,7 +46,7 @@ void display(){
 int main(){
     int choice, value;
     while(1){
-        printf("\nEnter the operation (1: Enqueue, 2: Dequeue, 3: Display, 4: Exit): ");
+        printf("\nEnter the operation\n1: Enqueue\n2: Dequeue\n3: Display\n4: Exit\n ");
         scanf("%d",&choice);
         switch(choice){
             case 1:

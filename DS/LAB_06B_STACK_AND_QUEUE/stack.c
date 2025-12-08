@@ -37,7 +37,7 @@ void display(){
 int main(){
     int choice, value;
     while(1){
-        printf("\nEnter the operation (1: Push, 2: Pop, 3: Display, 4: Exit): ");
+        printf("\nEnter the operation\n1: Push\n2: Pop\n3: Display\n4: Exit\n");
         scanf("%d",&choice);
         switch(choice){
             case 1:

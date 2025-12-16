@@ -34,7 +34,7 @@ class Canara implements Bank{
         return Interest;
     }
     
-    //modified calculateInterest for overloading for viva
+    //modified calculateInterest for overloading 
     int calculateInterest(double principalAmount, int Year){
         this.principalAmount = principalAmount;
 
@@ -168,3 +168,4 @@ public class LabExam {
     }
 
 }
+

@@ -11,13 +11,13 @@ void bfs(int start) {
     queue[++rear] = start;
 
     while (front <= rear) {
-        int current = queue[front++];
+        int current = queue[front++]; // Get the front of the queue
         printf("%d ", current);
 
         for (i = 0; i < n; i++) {
             if (graph[current][i] == 1 && visited[i] == 0) {
                 visited[i] = 1;
-                queue[++rear] = i;
+                queue[++rear] = i; // Enqueue the vertex
             }
         }
     }
@@ -36,14 +36,16 @@ int main() {
         }
     }
 
-    for (i = 0; i < n; i++)
+    // Initialize visited array to 0 (unvisited)
+    for (i = 0; i < n; i++) {
         visited[i] = 0;
+    }
 
     printf("Enter starting vertex: ");
     scanf("%d", &start);
 
     printf("BFS Traversal: ");
-    bfs(start);
+    bfs(start);  // Perform BFS traversal starting from 'start' vertex
 
     return 0;
 }
